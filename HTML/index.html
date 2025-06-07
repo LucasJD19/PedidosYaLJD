@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="../JS/app.js" defer></script>
+    <link rel="stylesheet" href="../CSS/styleIndex.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="icon/jpg" href="../IMAGES/logo.jpg">
+    <title>Delivery de comidas, tiendas y más - Pedidos Ya</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-dark bg-white" id="nav">
+            <a class="navbar-brand" href="./index.html"><img src="../IMAGES/PedidosYaLogoNav.png" alt="PedidosYa Logo"
+                    id="logopedidos"></a>
+            </a>
+            <div class="input-group" id="inputBuscar">
+                <input type="text" class="form-control" placeholder="Buscar locales" aria-label="Buscar"
+                    aria-describedby="button-addon2" id="input">
+                <button class="btn btn-outline-danger" type="button" id="btnBuscar">
+                    <i class="fas fa-search" id="lupa"></i>
+                </button>
+            </div>
+            <div class="ingresar">
+                <a class="iniciarSesion" href="./login.html"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <br><br><br><br>
+        <div class="contenedor-de-contenedores">
+            <div class="carrusel-container">
+                <div class="titulo-contenedor">
+                    <h3 class="h3">Hola. ¿Qué vas a pedir hoy?</h3>
+                    <div class="contenedor-botones">
+                        <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="carrusel" id="carrusel">
+                    <a href="./locales.html" class="item" id="cardRestaurante">
+                        <h5 class="tituloCards">Restaurantes</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/restaurants-foto-q-v2.png"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="./supermercado.html" class="item" id="cardPyaMarket">
+                        <h5 class="tituloCards" id="tituloPYmarket">PedidosYa Market</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/dmarts-foto-q.png?width=132&dpi=2&webp=1"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardMercados">
+                        <h5 class="tituloCards">Mercados</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/mercados-foto-q-v2.png?width=132&dpi=2&webp=1"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardHelados">
+                        <h5 class="tituloCards">Helados</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/helados-foto-q-v2.png?width=132&dpi=2&webp=1"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardGeneral">
+                        <h5 class="tituloCards">Bebidas</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/drinks-foto-q.png?width=132&dpi=2&webp=1"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardGeneral">
+                        <h5 class="tituloCards">Kioscos</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/kioscos-foto-q.png?width=132&dpi=2&webp=1"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardGeneral">
+                        <h5 class="tituloCards">Farmacias</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/farmacias-foto-q.png"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardGeneral">
+                        <h5 class="tituloCards">Tiendas</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/cafe-foto-q-v2.png"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardGeneral">
+                        <h5 class="tituloCards">Café & Deli</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/tiendas-foto-q.png"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                    <a href="" class="item" id="cardGeneral">
+                        <h5 class="tituloCards">Mascotas</h5><img
+                            src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/grid-masonry/quilted/mascotas-foto-q.png"
+                            class="card-img-top card-img" alt="Restaurantes">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sugerencias">
+            <div class="titulo-sugerencias">
+                <h3 class="h3">Te sugerimos</h3>
+            </div>
+            <div class="contenedorCards">
+                <a href="./restaurante.html?id=mcdonald" id="anclaRestaurante">
+                    <div class="card">
+                        <img src="https://hipfonts.com/wp-content/uploads/2022/08/McDonalds-logo-cover.jpg"
+                            class="card-img-top" alt="...">
+                        <div>
+                            <p class="card-text">Envio $900</p>
+                        </div>
+                </a>
+            </div>
+            <a href="./restaurante.html?id=lapizzada" id="anclaRestaurante">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0D7HfefHBN8fEVhms12IV_7Wfx7mBbwqANg&s"
+                        class="card-img-top" alt="...">
+                    <div>
+                        <p class="card-text">Envio $1000</p>
+                    </div>
+            </a>
+        </div>
+
+        <a href="./restaurante.html?id=el10" id="anclaRestaurante">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlY2g5-L8ssjm41Lox13gGjdcA9kOCAz68Xg&s"
+                    class="card-img-top" alt="...">
+                <div>
+                    <p class="card-text">Envio $850</p>
+                </div>
+        </a>
+        </div>
+        <a href="./restaurante.html?id=mostaza" id="anclaRestaurante">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO8z4f--PjJWUp6Eh78ychelKcwveD7zwpr0z2wXAKE59d1_b0-qbxXgS6KH-6oRKNT58&usqp=CAU"
+                    class="card-img-top" alt="...">
+                <div>
+                    <p class="card-text">Envio $1300</p>
+                </div>
+        </a>
+        </div>
+        <a href="./restaurante.html?id=burgerking" id="anclaRestaurante">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/1200px-Burger_King_2020.svg.png"
+                    class="card-img-top" alt="...">
+                <div>
+                    <p class="card-text">Envio $750</p>
+                </div>
+        </a>
+        </div>
+        <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1670984940113-f3aa1cd1309a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudGVzfGVufDB8fDB8fHww"
+                class="card-img-top" alt="...">
+            <div>
+                <p class="card-text">Envio $500</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.unaj.edu.ar/wp-content/uploads/2020/03/compras-medicamentos-en-farmacias.jpg"
+                class="card-img-top" alt="...">
+            <div>
+                <p class="card-text">Envio $500</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i0.wp.com/goula.lat/wp-content/uploads/2020/04/tienda-de-la-esquina-1.jpg?fit=1000%2C642&ssl=1"
+                class="card-img-top" alt="...">
+            <div>
+                <p class="card-text">Envio $500</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1670984940113-f3aa1cd1309a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudGVzfGVufDB8fDB8fHww"
+                class="card-img-top" alt="...">
+            <div>
+                <p class="card-text">Envio $500</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="prefooter">
+            <br>
+            <img src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/desktop/tops.png?width=400&dpi=1.5"
+                alt="" class="imgprefooter">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <div class="anclasprefooter">
+                <div class="cosasprefooter">
+                    <img src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/desktop/top-cities.png?width=160"
+                        alt="">
+                    <div class="card-body">
+                        <h6 class="card-title" id="tops">Top Ciudades</h6>
+                        <p class="card-text" id="ends">Buenos Aires, Cordoba, Rosario, La Plata, San Miguel de Tucuman,
+                            Mar del Plata.</p>
+                    </div>
+                </div>
+                <div class="cosasprefooter">
+                    <img src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/desktop/top-cuisines.png?width=160"
+                        alt="">
+                    <div class="card-body">
+                        <h6 class="card-title" id="tops">Top Comidas</h6>
+                        <p class="card-text" id="ends">Helados, Pizza, Hamburguesa, Empanadas, Postres, Sandwiches.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+        </div>
+        <br><br><br>
+        <div class="prefooter2">
+            <div class="card-body" id="cosasprefooter2">
+                <h5 class="card-title">Todo lo que necesitás, ¡te lo llevamos!</h5>
+                <p class="card-text" id="textoprefooter2">
+                    En PedidosYa podés dejar volar tu imaginación porque ahora todo lo que quieras lo llevamos directo
+                    desde tu cabeza a donde estés, ¡en minutos!</p>
+                <p class="card-text" id="textoprefooter2">
+                    ¿Lo querés? ¡Lo tenés! Pedi a los mejores restaurantes, hacé el pedido del súper, comprá la comida
+                    para tu mascota, la bebida para los amigos, pedi lo que necesites de la farmacia y ¡mucho más!</p>
+                <p class="card-text" id="textoprefooter2">
+                    En simples pasos podés tener lo que quieras directamente en tu puerta: descubrí, pedi y recibi a
+                    domicilio con PedidosYa..
+                </p>
+                <br>
+                <br>
+            </div>
+            <img src="https://pedidosya.dhmedia.io/image/pedidosya/only-home-squad/desktop/keywords.png?width=466&dpi=1.5"
+                alt="" class="imgprefooter2">
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="row-footer">
+            <div class="col-footer">
+                <a href="" class="anclaFooter">Quiénes somos</a>
+                <br><br>
+                <a href="" class="anclaFooter">Términos y Condiciones</a>
+                <br><br>
+                <a href="" class="anclaFooter">Privacidad</a>
+                <br><br>
+                <a href="" class="anclaFooter">Sé parte de Pedidosya</a>
+                <br><br>
+                <a href="" class="anclaFooter">Blog</a>
+            </div>
+            <div class="col-footer">
+                <a href="" class="anclaFooter">Top comidas</a>
+                <br><br>
+                <a href="" class="anclaFooter">Top cadenas</a>
+                <br><br>
+                <a href="" class="anclaFooter">Top ciudades</a>
+            </div>
+            <div class="col-footer">
+                <a href="" class="anclaFooter">Registra tu negocio</a>
+                <br><br>
+                <a href="" class="anclaFooter">Centro de Socios</a>
+            </div>
+            <div class="col-footer">
+                <a href="" class="anclaFooter">PedidosYa para tus colaboradores</a>
+            </div>
+        </div>
+
+        <hr class="hrFooter">
+
+        <div class="divFooter">
+            <br>
+            <p><a href="">Libro de quejas online</a></p>
+            <p>¿Te arrepentiste de una compra? <a href="">Botón de arrepentimiento</a></p>
+            <p>Defensa de las y los Consumidores. Para reclamos <a href="">Ingresá acá</a></p>
+            <p>Ley N°24.240 de Defensa del Consumidor. <a href="">Ver contratos de ahesión</a></p>
+        </div>
+        <hr class="hrFooter">
+        <br>
+        <div class="divFooter2">
+            <div>
+                <p class="textoFooter">DELIVERY HERO E-COMMERCE S.A. CUIT:30-7198567-6 | Av. del Libertador</p>
+                <p class="textoFooter">7208, piso 20, Ciudad Autonoma de Buenos
+                    Aires |</p>
+                <a href="mailto:contacto.ar@pedidosya.com">contacto.ar@pedidosya.com</a></p>
+                <p class="textoFooter">PedidosYa &copy; 2010-2024</p>
+            </div>
+            <div><a href="https://servicioscf.afip.gob.ar/publico/denuncias/denunciaCD.aspx" target="_blank"><img
+                        src="../IMAGES/DataFiscalPedidosYa.png" alt=""></a></div>
+        </div>
+        <br>
+    </footer>
+</body>
+
+</html>

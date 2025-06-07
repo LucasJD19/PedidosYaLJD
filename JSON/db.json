@@ -1,0 +1,315 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "contraseña": "admin123",
+      "direccion": "",
+      "telefono": 3816679056,
+      "email": "",
+      "rol": "admin"
+    },
+    {
+      "id": "84d9",
+      "usuario": "lucas",
+      "contraseña": "1",
+      "direccion": "josemaria",
+      "telefono": "381",
+      "email": "lucasdiaz@gmail.com"
+    }
+  ],
+  "locales": [
+    {
+      "idlocal": 0,
+      "buscar": "mcdonald",
+      "nombre": "McDonald",
+      "banner": "https://s7d1.scene7.com/is/image/mcdonalds/1PUB_bestburger_trendingnow:1-column-desktop?resmode=sharp2",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/640px-McDonald%27s_Golden_Arches.svg.png",
+      "categoria": "comida rapida",
+      "envio": "5-15 Min",
+      "costoEnvio": "900",
+      "menu": [
+        {
+          "id": 0,
+          "producto": "Big Mac",
+          "imagen": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX3vl0y/200/200/original?country=ar",
+          "precio": "11000",
+          "descripcion": "pan, doble hamburguesa, queso, lechuga y aderezo"
+        },
+        {
+          "id": 1,
+          "producto": "Cajita Feliz",
+          "imagen": "https://d2umxhib5z7frz.cloudfront.net/Argentina/DLV_26016_12SEP24.png",
+          "precio": "20000",
+          "descripcion": "pan, hamburguesa, queso, aderezo"
+        },
+        {
+          "id": 2,
+          "titulo": "McDonald",
+          "producto": "Mc Melt",
+          "imagen": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kPXPtaX9/200/200/original?country=ar",
+          "precio": "13000",
+          "descripcion": "pan, doble hamburguesa, doble queso, aderezo"
+        }
+      ],
+      "id": "6c0c"
+    },
+    {
+      "idlocal": 1,
+      "buscar": "lapizzada",
+      "nombre": "La Pizzada",
+      "banner": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkAE9ufqkvXW0Ttr3JEyANuQ8Diirh80ywPcCqCe_4yD-fofWYLceNCYJBEDc3E6uXC25h4qT6ubKiFbQdWt4-KsMVr8qhU77LR_oBEoHZ4ZlldhBYV0_mvsB7z_OoTU3s3G_Mt6f8jvg/s1600/b95009_9d173dc6feb443a48de8d874400b55a6.jpg",
+      "imagen": "https://images.rappi.com.ar/restaurants_logo/liu-1572469189427.png?e=webp&d=10x10&q=10",
+      "categoria": "Pizza",
+      "envio": "10-20 Min",
+      "costoEnvio": "1000",
+      "menu": [
+        {
+          "id": 3,
+          "producto": " Pizza Comun",
+          "imagen": "https://venusdorada.com.ar/wp-content/uploads/2024/01/Pizza-Comun.jpg",
+          "precio": "8000",
+          "descripcion": "masa, salsa, queso, aceituna"
+        },
+        {
+          "id": 5,
+          "titulo": "La Pizzada",
+          "producto": "Pizza Fugazzeta",
+          "imagen": "https://img-global.cpcdn.com/recipes/ce3f1f8f65e89807/1200x630cq70/photo.jpg",
+          "precio": "13000",
+          "descripcion": "masa, queso, cebolla"
+        }
+      ],
+      "id": "0444"
+    },
+    {
+      "idlocal": 2,
+      "buscar": "el10",
+      "nombre": "El 10",
+      "banner": "https://images.rappi.com.ar/restaurants_background/arsandwicheriamil98-1674514672239.jpg",
+      "imagen": "https://sandwicheriael10.com.ar/wp-content/uploads/2024/10/Logo-01-1.png",
+      "categoria": "sangucheria",
+      "envio": "5-8 Min",
+      "costoEnvio": "850",
+      "menu": [
+        {
+          "id": 6,
+          "producto": "Sandwich Comun",
+          "imagen": "https://www.mdzol.com/u/fotografias/m/2021/9/1/f768x1-1102801_1102928_17.jpg",
+          "precio": "6000",
+          "descripcion": "pan, milanesa, aderezo, verduras"
+        },
+        {
+          "id": 7,
+          "producto": "Sandwich Especial",
+          "imagen": "https://www.cronista.com/files/image/465/465970/62abbc542c457.png",
+          "precio": "7000",
+          "descripcion": "pan, milanesa, jamon, queso, huevo, aderezo, verduras"
+        },
+        {
+          "id": 8,
+          "titulo": "El 10",
+          "producto": "Hamburguesa Comun",
+          "imagen": "https://images.loveat.la/media/825/images/plates/42502",
+          "precio": "5500",
+          "descripcion": "pan, hamburguesa, queso, aderezos, verduras"
+        }
+      ],
+      "id": "441e"
+    },
+    {
+      "idlocal": 3,
+      "buscar": "mostaza",
+      "nombre": "Mostaza",
+      "banner": "https://www.mostazaweb.com.ar/wp-content/uploads/2020/03/cropped-PORTADA-HOME-scaled-1.jpg",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Mostaza_company_logo.png",
+      "categoria": "Hamburguesa",
+      "envio": "5-10 Min",
+      "costoEnvio": "1300",
+      "menu": [
+        {
+          "id": 9,
+          "producto": "Mega Boom",
+          "imagen": "https://morfiburger.com/wp-content/uploads/2024/09/BOOM-0037.png",
+          "precio": "15000",
+          "descripcion": "pan, hamburguesa x2, chedar x2, bacon, baño en cheddar"
+        },
+        {
+          "id": 10,
+          "producto": "Doble Cuarto Libra",
+          "imagen": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXt7Sq2/200/200/original?country=ar",
+          "precio": "9000",
+          "descripcion": "pan, doble hamburguesa, doble queso, aderezo"
+        },
+        {
+          "id": 11,
+          "titulo": "Mostaza",
+          "producto": "Big Bang Cheddar",
+          "imagen": "https://imgs.search.brave.com/1GLYjsEfGi1h90dBU4h4etLemq6DrHLitxp_iEP6vP0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmFwcGkuY29t/LmFyL3Byb2R1Y3Rz/L2I0ZDRjMjMyLTkx/ODYtNGYyNS04YjRh/LWJmZjhkMzYyNGUw/Ni0xNzA2OTY5MjUz/MTE2LnBuZz9kPTMw/MHgzMDAmZT13ZWJw/JnE9MTA",
+          "precio": "13000",
+          "descripcion": "pan, doble hamburguesa, doble queso, bacon, aderezo"
+        }
+      ],
+      "id": "9739"
+    },
+    {
+      "idlocal": 4,
+      "buscar": "burgerking",
+      "nombre": "Burger King",
+      "banner": "https://www.puromarketing.com/uploads/img/contents/2021/20210111010124Im5LFSWzUjejIep/20210111010124Im5LFSWzUjejIep_post_imagen_top_content.webp",
+      "imagen": "https://cdn.prod.website-files.com/62139d0c11fad8c02aaea357/64638365e2512c754eef3893_Burger_King_logo_(1999).svg.png",
+      "categoria": "Hamburguesa",
+      "envio": "15-35 Min",
+      "costoEnvio": "750",
+      "menu": [
+        {
+          "id": 12,
+          "producto": "Whopper",
+          "imagen": "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Whopper-3.png",
+          "precio": "12000",
+          "descripcion": "pan, hamburguesa, sin queso, verduras, aderezo"
+        },
+        {
+          "id": 13,
+          "producto": "Stacker Cuadruple",
+          "imagen": "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Stacker-Cuadruple-2.png",
+          "precio": "16000",
+          "descripcion": "pan, hamburguesa x4, queso chedar x4, salsa stacker, bacon"
+        },
+        {
+          "id": 14,
+          "titulo": "Burger King",
+          "producto": "Chilli King Pollo",
+          "imagen": "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Chili-king-pollo-1.png",
+          "precio": "9000",
+          "descripcion": "pan de papa, morrón, cebolla frita, bacon, pollo, barbacoa"
+        }
+      ],
+      "id": "cc54"
+    }
+  ],
+  "supermercado": [
+    {
+      "id": "1",
+      "marca": "Pureza",
+      "imagen": "https://ardiaprod.vtexassets.com/arquivos/ids/313391/Harina-000-Pureza-Ultra-Refinada-1-Kg-_1.jpg?v=638599413720700000",
+      "nombre": "Harina 000",
+      "precio": 250,
+      "descripcion": "Harina de trigo refinada 000, 1KG"
+    },
+    {
+      "id": "2",
+      "marca": "Luchetti",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCxHl6zKZaj9X70rWbqG4LTaox8na0aMt0A&s",
+      "nombre": "Arroz Largo Fino",
+      "precio": 350,
+      "descripcion": "Arroz de grano largo y fino, 1KG"
+    },
+    {
+      "id": "3",
+      "marca": "Cañuelas",
+      "imagen": "https://ardiaprod.vtexassets.com/arquivos/ids/309101/Aceite-de-Girasol-Ca%C3%B1uelas-900-Ml-_1.jpg?v=638599352441500000",
+      "nombre": "Aceite de Girasol",
+      "precio": 700,
+      "descripcion": "Aceite de girasol puro, 900ML"
+    },
+    {
+      "id": "4",
+      "marca": "Matarazzo",
+      "imagen": "https://http2.mlstatic.com/D_897496-MLA74652299318_022024-C.jpg",
+      "nombre": "Fideos Entrefino",
+      "precio": 400,
+      "descripcion": "Pasta seca tipo entrefino, 500GR"
+    },
+    {
+      "id": "5",
+      "marca": "Independencia",
+      "imagen": "https://titanioshop.com.ar/Assets/img/productos/AZUCAR%20REFINADA%20INDEPENDENCIA%201KG-COMPRESSED.JPG",
+      "nombre": "Azúcar Blanca",
+      "precio": 200,
+      "descripcion": "Azúcar refinada de alta pureza, 1KG"
+    },
+    {
+      "id": "6",
+      "marca": "Playadito",
+      "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/711224/Yerba-Mate-Playadito-Suave-X1kg-1-854539.jpg?v=637938633804770000",
+      "nombre": "Yerba Mate",
+      "precio": 800,
+      "descripcion": "Yerba mate, 1KG"
+    },
+    {
+      "id": "7",
+      "marca": "Milkaut",
+      "imagen": "https://www.papelerapitti.com.ar/7866-large_default/leche-entera-milkaut-1l.jpg",
+      "nombre": "Leche Entera",
+      "precio": 250,
+      "descripcion": "Leche entera pasteurizada, 1L"
+    },
+    {
+      "id": "8",
+      "marca": "Oreo",
+      "imagen": "https://acdn.mitiendanube.com/stores/001/789/620/products/23990_mesa-de-trabajo-11-b1868734b6e841ca1c16893448178505-1024-1024.jpg",
+      "nombre": "Galletas",
+      "precio": 150,
+      "descripcion": "Galletas Oreo clasicas, 118GR "
+    },
+    {
+      "id": "9",
+      "marca": "La Virginia",
+      "imagen": "https://www.lavirginia.com.ar/wp-content/uploads/2021/11/clasico-molido-torrado-1000.jpg",
+      "nombre": "Café Molido",
+      "precio": 1200,
+      "descripcion": "Café molido de calidad premium, 1KG"
+    },
+    {
+      "id": "10",
+      "marca": "Celusal",
+      "imagen": "https://www.lacoopeencasa.coop/media/lcec/publico/articulos/b/2/3/b23f66b9b48a8c29619fee8191bbf1ff",
+      "nombre": "Sal Fina",
+      "precio": 100,
+      "descripcion": "Sal fina de mesa, 500GR"
+    }
+  ],
+  "cadetes": [
+    {
+      "id": "1",
+      "nombre": "Juan Perez"
+    },
+    {
+      "id": "2",
+      "nombre": "Maria Lopez"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Fernandez"
+    },
+    {
+      "id": "4",
+      "nombre": "Ana Rodriguez"
+    },
+    {
+      "id": "5",
+      "nombre": "Luis Gomez"
+    },
+    {
+      "id": "6",
+      "nombre": "Sofia Martinez"
+    },
+    {
+      "id": "7",
+      "nombre": "Miguel Torres"
+    },
+    {
+      "id": "8",
+      "nombre": "Laura Sanchez"
+    },
+    {
+      "id": "9",
+      "nombre": "Javier Castillo"
+    },
+    {
+      "id": "10",
+      "nombre": "Camila Morales"
+    }
+  ]
+}

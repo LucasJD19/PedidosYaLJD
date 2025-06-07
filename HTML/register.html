@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../CSS/styleRegister.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../JS/register.js" defer></script>
+  <link rel="icon" type="icon/jpg" href="../IMAGES/logo.jpg">
+  <title>Registrarse</title>
+</head>
+
+<body>
+
+  <main>
+    <div id="cartelR"></div>
+
+    <div class="formulario" id="formularioregis">
+
+      <h1>Registrarme</h1>
+
+      <form id="registerForm" method="post">
+
+        <div class="usuario">
+          <input type="text" placeholder="Nombre de Usuario" id="user" required>
+        </div>
+
+        <div class="contraseña">
+          <input type="password" placeholder="Contraseña" id="pass" required>
+        </div>
+
+        <div class="contraseña">
+          <input type="password" placeholder="Repetir contraseña" id="confirmarPass" required>
+        </div>
+
+        <div class="direccion">
+          <input type="text" placeholder="Direccion" id="direccion" required>
+        </div>
+
+        <div class="telefono">
+          <input type="number" placeholder="Teléfono" id="telefono" required>
+        </div>
+
+        <div class="mail">
+          <input type="email" placeholder="Email" id="mail" required>
+        </div>
+
+        
+
+        <input type="submit" value="Registrarme">
+
+        <div class="backToLogin"><a href="./login.html">Volver</a></div>
+
+      </form>
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>
